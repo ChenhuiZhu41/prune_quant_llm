@@ -27,4 +27,4 @@ testdata = load_dataset(path='parquet', data_files='/home/zhuchenhui/dataset/wik
 print(testdata)
 # trainenc = tokenizer(" ".join(traindata['text']), return_tensors='pt')
 testenc = tokenizer("\n\n".join(testdata['train']['text']), return_tensors='pt')
-print("load c4 datasets successfully")
+print("load c4 datasets successfully!!!")
